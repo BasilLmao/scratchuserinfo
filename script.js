@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const username = "ReplaceWithUsername"; // Replace with the desired username
+    const username = "askewkea08"; // Replace with the desired username
 
      fetch(`https://cors-anywhere.herokuapp.com/https://api.scratch.mit.edu/users/${username}`)
         .then(response => response.json())
